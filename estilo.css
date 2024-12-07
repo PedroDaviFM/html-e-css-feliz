@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    display: flexbox;
+    border-bottom: 10px solid yellow;
+    padding: 10px 20px;
+}
+
+img {
+    display: inline;
+    width: 20%;
+ 
+}
+
+nav {
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+a {
+    font-family: "Fira Code";
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a::before {
+    content: "";
+    display: inline-flex;
+    background-color: yellow;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+#botao {
+    background-color: yellow;
+    font-family: "Fira Code";
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 20px;
+    box-shadow: 5px 5px 0 #9DB3C8;
+}
